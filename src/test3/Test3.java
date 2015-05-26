@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package test3;
-
+import javax.swing.*;
 /**
  *
  * @author alfarie
@@ -16,6 +16,10 @@ public class Test3 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        JFrame frame = new JFrame("System testing");
+        frame.setVisible(true);
+        frame.setSize(600,600);
+        
     }
     
 }
